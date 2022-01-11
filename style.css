@@ -1,0 +1,37 @@
+.mlext-container {
+  margin-bottom: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-top: solid;
+  border-width: 2px;
+  border-color: #3483fa;
+  border-radius: 8px;
+}
+
+.mlext-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 2px 0px;
+}
+
+.mlext-container li > span {
+  padding: 2px 4px;
+  background-color: #fff;
+  color: #3483fa;
+  font-weight: bold;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #3483fa;
+  cursor: pointer;
+}
+
+.mlext-container li > span:hover {
+  background-color: #3483fa;
+  color: #fff;
+}

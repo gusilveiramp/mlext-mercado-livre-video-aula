@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "MLEXT",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://*.mercadolivre.com.br/*"],
+      "css": ["style.css"],
+      "js": ["index.js"]
+    }
+  ]
+}
